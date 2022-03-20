@@ -15,8 +15,8 @@ payload={}
 headers = {
   'Accept': 'application/json',
   'Content-Type': 'application/xml',
-  'Authorization': 'Basic amh1MTpIVWppZUAyMDIyMDIyNw==',
-  'Cookie': 'PHPSESSID=1013d8d275427d33c87d7f7389209066'
+  'Authorization': 'Basic ad_credentials_md5',
+  'Cookie': 'secret_string'
 }
 
 response = requests.request("GET", url, verify=False, headers=headers, data=payload)  # 'verify=False,' is mandatory, otherwise the code will be interrupted when running.
